@@ -1,0 +1,33 @@
+.formulario input[type="text"],
+.formulario input[type="file"],
+.formulario textarea {
+    border:1px solid white;
+    padding-left: 10px;
+    
+}
+label{
+    padding-left: 10px;
+}
+.enviar{
+    margin:auto;
+    display: inline-block;
+	color:#fff;
+	border-radius: 50px;
+	border:1px solid rgba(255,255,255,.2);
+	background: none;
+	cursor: pointer;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+.enviar:hover {
+	border:1px solid rgba(255,255,255,1);
+}
+
+.formulario .error ul {
+	padding: 0 15px;
+}
+
+.formulario .error ul li {
+	margin-bottom: 10px;	
+}
