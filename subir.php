@@ -13,7 +13,7 @@
         
                 $val = $db->query($sql)(array(
                     ':titulo' => $_POST['titulo'],
-                    ':imagen' => $_FILES['foto']['name'],
+                   ':imagen' => $_FILES['foto']['name'],
                     ':texto' => $_POST['texto']
                 ));
                 
