@@ -1,0 +1,67 @@
+.tituloInicio{
+    text-align: center;
+}
+.margin{
+    margin-top: 40px;
+    margin-right:240px;
+}
+
+
+.formulario input[type="text"],
+.formulario input[type="password"],
+.formulario textarea {
+    border:1px solid white;
+    margin-left: 50px;
+    background-color: white;
+    border-radius: 0 30px 30px 0;
+    padding-left: 10px;
+}
+.input-field > label {
+    color: black;
+    padding-left: 10px;
+}
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+input[type=password]:not(.browser-default):focus:not([readonly]) + label,
+{
+  color:black;
+}
+.registro{
+    margin: 4em auto;
+}
+.formulario{
+    padding: 3.5em 3em 1em;
+    background: rgba(0, 0, 0, 0.24);
+    border-radius: 1px 1px 1px 0px;
+    border-left: 5px solid #742ecc;
+
+}
+.icon1, .icon2{
+    border: 1px solid white;
+    height: 30px;
+    color:purple;
+    background-color: white;
+}
+.entrar{
+    background: #742ecc;
+    border: none;
+    padding: 12px 15px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Mukta Mahee', sans-serif;
+    cursor: pointer;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+}
+.entrar a{
+    color:white;
+}
+
+.formulario .error ul {
+	padding: 0 15px;
+}
+
+.formulario .error ul li {
+	margin-bottom: 10px;	
+}

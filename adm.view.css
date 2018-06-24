@@ -1,0 +1,30 @@
+.button-collapse{
+    z-index: 1;
+}
+.prueba{
+    height: 100px;
+}
+.margin{
+    margin-top: 7%;
+}
+.nomargin{
+    margin-top: -20%;
+}
+.cerrar{
+    padding-right: 25px;
+}
+
+
+
+
+
+
+
+
+.formulario .error ul {
+	padding: 0 15px;
+}
+
+.formulario .error ul li {
+	margin-bottom: 10px;	
+}

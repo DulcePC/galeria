@@ -39,6 +39,9 @@
                         <label for="icon_prefix2">Descripcion</label>
                     </div>
                 </div> 
+                <?php if(isset($error)): ?>
+                    <p class="error"><?php echo $error; ?></p>
+                <?php endif ?>
                 <input type="submit" class="submit btn enviar right" name="submit" value="Subir Foto">
             </form>
         </div>
