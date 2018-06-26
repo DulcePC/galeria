@@ -1,3 +1,7 @@
+<?php 
+    session_start();
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,7 +23,7 @@
                             <a href="#!user"><img class="circle" src="../../galeria/fotos/1.jpg"></a>
                         </div>
                         <div class="col l8">
-                            <p>Bienvenido, Adm<p>
+                            <p>Bienvenido, <?php echo $_SESSION['usuario'];?><p>
                             <div class="row nomargin">
                                     <div class="col l3">
                                         <i class="tiny material-icons">email</i>
@@ -46,7 +50,7 @@
         <li><a class="waves-effect" href="#!"><i class="material-icons">add_circle_outline</i>Agregar Usuarios</a></li>
     </ul>
     <a href="#" data-activates="slide-out" class="button-collapse show-on-medium-and-up"><i class="material-icons">menu</i></a>
-    <a href="cerrar.php" class="right cerrar">Cerrar seccion</a>
+    <a href="../../galeria/cerrar.php" class="right cerrar">Cerrar seccion</a>
 </nav>
 
 
