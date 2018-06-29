@@ -10,10 +10,13 @@
     <link rel="stylesheet" href="../../galeria/css/main.css" />
 </head>
 <body>
-    <div class="acceder green col l12">
-        <h3 class="titulo">Obras de arte de Candido bido<a href="adm.php"><i class="material-icons right">arrow_forward</i></a></h3>
-    </div>
-    <div class="fotos col l12 s12 m12 container">
+    <header class="acceder col l12">
+        <h1 class="titulo">Obras de arte de Candido Bido</h1>
+        <p class="descripcion">was a Dominican painter and fine artist, He was the first painter from the Dominican Republic to have an exhibition in France.</p>
+    </header>
+        <a href="adm.php"><i class="material-icons right">arrow_forward</i></a>
+        <h3 class="obras">Obras</h3>
+    <div class="fotos col l12 s12 m6 container">
         <div class="row">
             <?php foreach($fotos as $foto): ?>
                 <div class="col l3 m3 s12">
@@ -23,18 +26,15 @@
                 </div>
             <?php endforeach; ?>
         </div>
-        
     </div>
       <!--botones!-->
-    <div class="container green">
+    <div class="container">
         <?php if ($pagina_actual > 1): ?>
             <a href="index.php?p=<?php echo $pagina_actual - 1; ?>" class="izquierda left"><i class=" material-icons left">arrow_back</i>Anterior</a>
 		<?php endif ?>
         <?php if ($total_paginas != $pagina_actual): ?>
 			<a href="index.php?p=<?php echo $pagina_actual + 1; ?>" class="derecha right"><i class="material-icons right">arrow_forward</i>Siguiente</a>
 		<?php endif ?>
-        <!-- <a href="#" class="izquierda left"><i class=" material-icons left">arrow_back</i>Anterior</a>
-        <a href="#" class="derecha right"><i class="material-icons right">arrow_forward</i>Siguiente</a> -->
     </div>
   
     <br>

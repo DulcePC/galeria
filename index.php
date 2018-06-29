@@ -1,5 +1,7 @@
-<?php 
+<?php
+
 require 'funciones.php';
+//paginacion para el index
 $fotos_por_pagina = 8;
 $pagina_actual = (isset($_GET['p'])? (int)$_GET['p'] : 1);
 $inicio = ($pagina_actual > 1 ) ? $pagina_actual * $fotos_por_pagina -$fotos_por_pagina : 0;
@@ -19,6 +21,9 @@ $statement = $conexion -> prepare("SELECT FOUND_ROWS() as total_filas"); //("SEL
 $statement ->execute();
 $total_post = $statement->fetch()['total_filas'];
 $total_paginas = ceil($total_post / $fotos_por_pagina);
+
+
+
 
 require 'view/index.view.php';
 ?>

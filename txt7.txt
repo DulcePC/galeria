@@ -1,0 +1,8 @@
+--------------ERRORES... Y SOLUCIONES?
+*VER-ADM.VIEW:
+intente hace un modal en para ver la imagen, pero cuando le doy a este
+me dice que tengo un error con la variable $foto pues cuando incluyo 
+la parte donde esta la logica de las fotos y la incluyo en el VIEW
+me dice que no puedo llamar la variable conexion dos veces pues ya en la paginacion
+estoy llamando a funciones.php para esto y si lo vuelvo a poner no vale la pena.
+

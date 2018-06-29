@@ -29,8 +29,5 @@
         }
     }
 
-
-
-
 require 'view/subir.view.php';
 ?>

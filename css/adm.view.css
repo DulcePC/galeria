@@ -1,8 +1,24 @@
-.button-collapse{
-    z-index: 1;
+nav{
+    background-color: #64b5f6;
 }
 .prueba{
     height: 100px;
+}
+td li{
+    color:black;
+}
+li .material-icons{
+    color:white;
+}
+.pagination li.active a {
+    background-color:#009688;
+}
+   
+.material-icons{
+    color:black;
+}
+.button-collapse{
+    z-index: 1;
 }
 .margin{
     margin-top: 7%;
@@ -13,14 +29,6 @@
 .cerrar{
     padding-right: 25px;
 }
-
-
-
-
-
-
-
-
 .formulario .error ul {
 	padding: 0 15px;
 }
@@ -28,3 +36,7 @@
 .formulario .error ul li {
 	margin-bottom: 10px;	
 }
+td, th{
+    list-style: none;
+}
+  

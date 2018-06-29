@@ -1,4 +1,5 @@
 <?php
+
 //aqui la logica cuando inicie seccion
 session_start();
 if (isset($_SESSION['usuario'])) {
@@ -7,4 +8,4 @@ if (isset($_SESSION['usuario'])) {
 	header('Location: login.php');
 }
 
-?>
+?> 

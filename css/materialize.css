@@ -2742,9 +2742,6 @@ video.responsive-video {
   line-height: 30px;
 }
 
-.pagination li.active a {
-  color: #fff;
-}
 
 .pagination li.active {
   background-color: #ee6e73;
@@ -2943,11 +2940,10 @@ ul.staggered-list li {
   }
 }
 
-.page-footer {
+/* .page-footer {
   padding-top: 20px;
-  color: #fff;
-  background-color: #ee6e73;
-}
+
+} */
 
 .page-footer .footer-copyright {
   overflow: hidden;
@@ -2971,6 +2967,7 @@ ul.staggered-list li {
 
 table, th, td {
   border: none;
+  list-style: none;
 }
 
 table {
@@ -3010,6 +3007,7 @@ tr {
 }
 
 td, th {
+  list-style: none;
   padding: 15px 5px;
   display: table-cell;
   text-align: left;

@@ -38,9 +38,9 @@
                     </div>
                     <div class="row">
                         <div class="input-field col l12 m6 s6">
-                            <buttom class="btn col l12 entrar">
-                                <i class="material-icons prefix" onclick="login.submit()">send</i>
-                            </buttom>
+                            <a class="btn col l12">
+                               <p> Enviar datos<i class="material-icons prefix left" onclick="login.submit()">send</i><p>
+                            </a>
                         </div>
                     </div>
                     <?php if(!empty($errores)): ?>

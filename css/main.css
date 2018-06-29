@@ -7,25 +7,50 @@ body{
 	background-color:white;
 	padding: 0;
 	margin:0;
-	flex-wrap: wrap;
-	min-height: 100vh;
+}
+.nav{
+	background-color: transparent;
+	margin-bottom: 20px;
+
+}
+.material-icons{
+	color:black;
+	border: transparent;
+}
+.acceder{
+ background-image: url('../imagenes/bido.JPG');
+ height: 100vh;
+ background-size: cover;
+ background-position: center;
+ display: flex;
+ flex-direction: column;
+justify-content: center; /*aqui bajara el contenido */
+align-items: center;
+padding: 0 20px;
 }
 .titulo{
-	color:black;
-	font-size: 20px;
+	color:#ffffff;
+	font-size: 50px;
 	text-align: center;
-	margin:0;
+}
+
+.descripcion{
+	font-size: 20px;
+	color:#ffffff;
 }
 .fotos {
+	width: 90%;
+	padding: 5px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
-}
 
-.fotos {
-	width: 100%;
-	padding: 0;
+}
+.obras{
+	text-align: center;
+	color:#9c27b0;
+	font-size: 30px;
 
 }
 .fotos img {
@@ -34,37 +59,34 @@ body{
 	-webkit-box-shadow: 2px 2px 3px rgba(0,0,0,.8);
 	box-shadow: 2px 2px 3px rgba(0,0,0,.8);
 	margin-bottom: 15px;
-	
 }
 
 .izquierda{
 	border-radius: 50px;
-	border: 1px solid black;
+	background-color: #ffeb3b;
 	padding: 5px;
 	padding-right: 15px;
+	text-align: center;
 }
 .derecha{
 	border-radius: 50px;
-	border: 1px solid black;
+	background-color: #ffeb3b;
 	padding: 5px;
 	padding-left: 15px;
+	text-align: center;
 }
-.material-icons{
-	border: transparent;
-}
-.acceder{
-	margin:0;
-	padding: 0;
+a{
+	color:black;
 }
 
-
-
-
-
-
-footer{
-	align-content: flex-end;
-}
+.page-footer {
+	padding-top: 20px;
+	bottom:0;
+	left:0;
+	width:100%;
+	background-color: #43a047;
+  
+  }
 
 .formulario .error ul {
 	padding: 0 15px;

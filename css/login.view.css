@@ -1,3 +1,6 @@
+body{
+    background-color: #64b5f6;
+}
 .tituloInicio{
     text-align: center;
 }
@@ -33,17 +36,17 @@ input[type=password]:not(.browser-default):focus:not([readonly]) + label,
     padding: 3.5em 3em 1em;
     background: rgba(0, 0, 0, 0.24);
     border-radius: 1px 1px 1px 0px;
-    border-left: 5px solid #742ecc;
+    border-left: 5px solid #009688;
 
 }
 .icon1, .icon2{
     border: 1px solid white;
     height: 30px;
-    color:purple;
-    background-color: white;
+    color:#009688;
+   
 }
 .entrar{
-    background: #742ecc;
+    background:#009688;
     border: none;
     padding: 12px 15px;
     text-transform: uppercase;
